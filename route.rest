@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/ManageUser/GetUserList
+
+###
+POST http://localhost:3000/api/ManageUser/Register 
+Content-Type: "application/json"
+
+{
+    "firstName":"Khang",
+    "lastName":"Hoang",
+    "email":"hmkxgame@gmail.com",
+    "password":"123456",
+}
+
+###
+PATCH http://localhost:3000/api/ManageUser/UpdateUser/613f61bf354ef4eb3061ed9e
+Content-Type: "application/json"
